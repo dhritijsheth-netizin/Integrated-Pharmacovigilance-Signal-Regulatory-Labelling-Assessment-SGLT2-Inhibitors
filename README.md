@@ -1,7 +1,7 @@
 # Pharmacovigilance: Safety Signal Assessment of SGLT2 Inhibitors
 
 ## Project Overview
-An end-to-end pharmacovigilance project evaluating the potential association between SGLT2 inhibitors and Fournier's gangrene through aggregate data analysis, individual case assessment, signal evaluation, and regulatory labelling review.
+An end-to-end pharmacovigilance project evaluating the potential association between SGLT2 inhibitors and Fournier's gangrene through aggregate data analysis, individual case assessment, signal evaluation, and regulatory labelling review. **Note:** All individual ICSR cases and patient details used in this project are fictional and simulated for educational purposes only. No real patient data or actual case reports have been used. The project is intended solely for learning and portfolio demonstration.
 
 ## Project Stages
 
