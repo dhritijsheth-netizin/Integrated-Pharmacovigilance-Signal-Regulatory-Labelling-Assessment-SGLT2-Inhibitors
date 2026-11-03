@@ -1,48 +1,36 @@
-# Integrated Pharmacovigilance Signal & Regulatory Labelling Assessment: SGLT2 Inhibitors & Fournier's Gangrene
+# Pharmacovigilance: Safety Signal Assessment of SGLT2 Inhibitors
 
 ## Project Overview
+An end-to-end pharmacovigilance project evaluating the potential association between SGLT2 inhibitors and Fournier's gangrene through aggregate data analysis, individual case assessment, signal evaluation, and regulatory labelling review.
 
-This repository contains an end-to-end pharmacovigilance evaluation investigating the safety signal of Fournier's gangrene associated with Sodium-Glucose Cotransporter-2 (SGLT2) inhibitors (empagliflozin, dapagliflozin, and canagliflozin). The project bridges quantitative disproportionality analysis, individual case safety report processing, and regulatory label auditing.
+## Project Stages
 
-*Note: Individual case narratives included in this project are simulated training data created solely for educational and portfolio demonstration purposes.*
+**1. Signal Detection**
+- Analysed published FAERS-based safety data.
+- Calculated PRR, ROR, chi-square and 95% confidence interval.
+- Created an Excel dashboard to present findings.
 
----
+**2. Individual ICSR Assessment**
+- Assessed five simulated adverse event cases.
+- Performed validity, seriousness and preliminary causality assessments.
 
-## Project Workflow & Sequence
+**3. Integrated Signal Assessment**
+- Reviewed published studies, clinical evidence and biological plausibility.
+- Evaluated supporting evidence, limitations and overall signal significance.
 
-### 1. Quantitative Signal Detection
+**4. Regulatory Labelling Assessment**
+- Reviewed empagliflozin (Jardiance) prescribing information.
+- Evaluated the existing Fournier's gangrene warning and labelling recommendations.
 
-* Analyzes aggregate FAERS disproportionality reporting data.
-* Calculates the Proportional Reporting Ratio (PRR ~ 7.95) and applies Chi-square statistical testing.
+## Tools & Skills
+**Tools:** Microsoft Excel, Microsoft Word
 
-### 2. Case Narrative Intake
+**Skills:** Signal Detection, PRR/ROR Analysis, ICSR Processing, Seriousness Assessment, Causality Assessment, Safety Signal Evaluation, Regulatory Labelling.
 
-* Provides raw clinical narratives for 5 simulated individual case safety reports (`FG-001` through `FG-005`) presenting with Fournier's gangrene.
+## Key Note
+Published aggregate safety data and scientific literature were used for the analysis. Individual ICSR cases are fictional and created solely for educational purposes. Disproportionality findings do not establish causality or clinical risk.
 
-### 3. Case Processing & Evaluation
-
-* Translates raw source narratives into structured safety data.
-* Evaluates minimum validity criteria, seriousness criteria (hospitalization, surgical intervention, fatal outcomes), and applies WHO-UMC causality classifications.
-
-### 4. Medical & Epidemiological Synthesis
-
-* Synthesizes epidemiological literature (Fadini et al., 2019) and the 2018 FDA Drug Safety Communication alongside biological plausibility and clinical risk factors (diabetes mellitus, obesity).
-
-### 5. Regulatory Audit & Decision
-
-* Concludes the workflow by auditing existing US Prescribing Information for Jardiance (empagliflozin), confirming that Section 5.3 (Genitourinary Infections) appropriately addresses the safety warning without requiring immediate label modifications.
-
----
-
-## Key Methodologies & Frameworks
-
-* **Signal Detection:** Proportional Reporting Ratio (PRR) & Chi-Square Analysis
-* **Causality Assessment:** WHO-UMC Causality Classification Scale
-* **Regulatory Compliance:** US FDA Prescribing Guidelines & ICH-GCP Post-Marketing Safety Standards
-
----
-
-## Author
-
-* **Dhriti J Sheth**
-* GitHub: `dhritijsheth-netizin`
+## References
+- Fadini et al. (2019). *BMJ Open Diabetes Research & Care*. https://doi.org/10.1136/bmjdrc-2019-000725
+- U.S. FDA Drug Safety Communication (2018).
+- U.S. National Library of Medicine – [DailyMed: Jardiance Prescribing Information](https://dailymed.nlm.nih.gov/dailymed/drugInfo.cfm?setid=faf3dd6a-9cd0-39c2-0d2e-232cb3f67565)
